@@ -13,6 +13,7 @@
     h1 { font-size: 30px; margin: 0 0 4px; }
     .date { color: var(--muted); margin: 0 0 28px; }
     h2 { font-size: 20px; margin: 32px 0 8px; padding-top: 20px; border-top: 1px solid var(--rule); }
+    h3 { font-size: 17px; margin: 18px 0 4px; }
     a { color: #124e89; }
     li { margin: 6px 0; }
   </style>
@@ -21,69 +22,171 @@
   <main>
     <p><a href="index.html">← Nap House</a></p>
     <h1>Nap House Privacy Policy</h1>
-    <p class="date">Updated 29 September 2026</p>
+    <p class="date">Updated 30 September 2026</p>
 
     <p>Nap House turns a good night's sleep into coins you spend decorating a room, in a house you share with friends.
-      This policy explains what the app keeps, why, who can see it, and how to delete it. In short: we keep as little
-      as possible, we never sell it, and there are no ads or tracking.</p>
+      This policy explains what we collect, why, who can see it, where it's kept, how long we keep it and how to have it
+      deleted. In short: we keep as little as we can, we never sell it, and there are no ads or tracking.</p>
+    <p>Nap House is made by Alfonso Kim, an individual developer in Australia ("we", "us"). You can reach us at
+      <a href="mailto:alfonso.kim27@gmail.com">alfonso.kim27@gmail.com</a>.</p>
 
-    <h2>What we keep</h2>
+    <h2>What we collect</h2>
+    <h3>Your account</h3>
     <ul>
-      <li><strong>Your account:</strong> a unique ID and the email address and name that Apple or Google gives us when you
-        sign in (Apple may give a private relay address), plus the username and display name you choose. You can also
-        play as a guest without signing in: the app then makes an anonymous account, with a unique ID and no email or
-        name (only a display name, if you give one). Signing in with Apple or Google later adds it to that same account,
-        so nothing is lost.</li>
-      <li><strong>Your sleep:</strong> one number per night, the minutes you were asleep, with the date you woke up and the
-        score and coins the app gives it. When you allow it, the app reads sleep analysis from Apple Health (or Health
-        Connect on Android) to work this out. It reads nothing else from Apple Health: no heart rate, no sleep stages, no
-        location, and it never writes to Apple Health. The name of the tracker you use is kept only so we can use the same
-        source each night, and it's never shown to anyone else. If you don't use a sleep tracker, you can
-        tell the app yourself instead: tap Good night and Good morning, or type in how long you slept. Either way,
-        only the minutes are kept.</li>
-      <li><strong>Your game:</strong> your coins, what you've bought, how your room is arranged, the houses you're in and the
-        coins you've given them, and the invitations you create. Invitation links are stored only as a one-way fingerprint.</li>
+      <li>If you sign in with Apple or Google: a unique account ID and the email address Apple or Google gives us (Apple
+        may give a private relay address). Google also sends the name on your Google account and a link to your profile
+        photo, which our sign-in provider stores. If you start a new account with Google, that name is your display name
+        until you choose your own; we never use the photo.</li>
+      <li>The username and display name you choose.</li>
+      <li>If you play as a guest: an anonymous account with a unique ID and no email or name (only a display name, if you
+        give one). Signing in with Apple or Google later adds it to that same account, so nothing is lost.</li>
+      <li>When you created your account, when you last signed in, and which version of our terms you agreed to, and when.</li>
+      <li>If you signed in with Apple: a token from Apple, kept only so we can disconnect Nap House from your Apple ID when
+        you delete your account.</li>
+    </ul>
+    <h3>Your sleep</h3>
+    <ul>
+      <li>One entry per night: the date you woke up, how many minutes you were asleep, the score and coins it earned, and
+        whether it came from a tracker or you entered it yourself.</li>
+      <li>With your permission, the app reads sleep records from Apple Health (or Health Connect on Android): when you
+        were in bed, awake or asleep (including sleep stages, if your tracker records them) and which app or device
+        recorded them. It reads up to the last 30 days, works out on your phone how many minutes you were asleep each
+        night, and sends us only those nightly totals. The times, stages and tracker details stay on your phone. It reads
+        nothing else from Apple Health or Health Connect (no heart rate, no location), and it never writes to them.</li>
+      <li>If you don't use a sleep tracker, you can tell the app yourself: tap Good night and Good morning, or type in how
+        long you slept. Your bedtime stays on your phone until you tap Good morning, and only the minutes are sent to us.</li>
+    </ul>
+    <h3>Your game</h3>
+    <ul>
+      <li>Your coins and coin history, what you've bought with them, how your room is arranged, the houses you're in and
+        the ones you started, their names, what you've given them, the invitations you create (stored only as a one-way
+        fingerprint) and your settings (such as Share sleep graph).</li>
+      <li>Reports you send us about other players (with the names they had then), reports other players send about you,
+        and who you've blocked.</li>
+    </ul>
+    <h3>Technical information</h3>
+    <ul>
+      <li>When the app talks to our servers, our hosting provider records technical details such as your IP address,
+        device type and app version, for security and to fix problems. Your sign-in sessions also keep the IP address and
+        device they started on, until you sign out or delete your account.</li>
+      <li>When the app checks for updates, Expo (the service that delivers them) receives your IP address, your phone's
+        operating system and a random ID for this installation of the app.</li>
+    </ul>
+    <p><strong>Kept only on your phone</strong> (never sent to us): your bedtime if you enter your sleep yourself, a night
+      you entered while offline (until it's sent), an invitation you've opened but not used yet, and the picture of your
+      room and last night's hours that the home-screen widget shows.</p>
+    <p>We don't collect your location, contacts, photos or advertising ID, and we don't use analytics or advertising tools.</p>
+
+    <h2>Your health information and your consent</h2>
+    <p>Information about your sleep is health information, which Australian privacy law treats as sensitive information.
+      We only collect it with your consent: when you connect Apple Health or Health Connect (the app first explains what
+      it reads and where it goes, then your phone asks you), or when you enter your sleep yourself.</p>
+    <ul>
+      <li>You can withdraw your consent at any time: turn off Nap House's access in the Health app (or in Settings, then
+        Health, then Data Access &amp; Devices), or in Health Connect's app permissions, or switch to entering your sleep
+        yourself in Profile. To delete the sleep we already have, use Delete sleep data (see "Your choices and rights").</li>
+      <li>We use your sleep information only to score your nights, pay your coins and show your journal, and to show your
+        housemates your sleep graph if you choose to share it. We never use it for advertising or marketing, never sell
+        it, never give it to data brokers, and never store it in iCloud.</li>
+      <li>Nap House's use of information received from Health Connect follows the Health Connect Permissions policy,
+        including its Limited Use requirements.</li>
+      <li>Nap House is a game, not a medical device, and nothing in it is medical advice.</li>
     </ul>
 
-    <h2>How we use it</h2>
-    <p>Only to run Nap House: to sign you in, score your nights and pay your coins, save your room, and show your house to
-      its members. We don't use your data, including your health data, for advertising, and we don't sell it or share it
-      with data brokers. Health data from Apple Health is used only to provide these features.</p>
+    <h2>How we use your information</h2>
+    <ul>
+      <li>To run Nap House: sign you in, score your nights and pay your coins, save your room, run your houses and
+        invitations, and delete your data when you ask.</li>
+      <li>To keep Nap House safe and fair: stop cheating and abuse, check names, and handle reports.</li>
+      <li>To answer you when you contact us, and to meet our legal obligations.</li>
+    </ul>
+    <p>Some of this is automatic. Our server scores each night and pays coins using the formula shown in the app (under How
+      scoring works), and an automatic filter checks the names people choose. Decisions to suspend or close an account are
+      made by a person.</p>
 
     <h2>Who can see it</h2>
     <ul>
-      <li><strong>People in your houses</strong> see your username and display name, your room, and what you've given to the
-        house. They never see your coins, your email or your sleep, unless you turn on <em>Share sleep graph</em>. Then
-        they see your nightly sleep length and scores (never your tracker). You can turn it off any time.</li>
-      <li><strong>Nobody else.</strong> Houses are private and people join only with an invitation link or code from a member.</li>
-      <li><strong>Service providers</strong> who run the app for us: <a href="https://supabase.com/privacy">Supabase</a> hosts the
-        database and sign-in (in Sydney, Australia), and Apple and Google handle signing in. They process data only on our
-        instructions.</li>
+      <li><strong>People in your houses</strong> see your username and display name, your room and what you've given the
+        house. They never see your coins, your email or your sleep, unless you turn on Share sleep graph: then everyone in
+        your houses sees how long you slept and your scores for your last 14 nights (never your tracker). You can turn it
+        off at any time. Someone you block no longer shows up in your houses for you.</li>
+      <li><strong>People with an invitation</strong> to one of your houses see the house's name and how many people are in it.</li>
+      <li><strong>Nobody else in the app.</strong> Houses are private, and guests can't be in one.</li>
+      <li><strong>Our service providers</strong>, who run parts of Nap House for us (listed in the next section). They may
+        use your information only to provide their service to us.</li>
+      <li><strong>Apple and Google</strong>, when you sign in with them. They handle this under their own privacy policies.</li>
+      <li><strong>Authorities</strong>, if the law requires it or someone's safety is at risk.</li>
+      <li><strong>Whoever runs Nap House next</strong>, if Nap House moves to a company we set up or to someone who takes it
+        over. Your information would stay under this policy, and we'd tell you first.</li>
     </ul>
+    <p>We don't sell your information or share it for advertising.</p>
+
+    <h2>Where your information is kept</h2>
+    <ul>
+      <li><strong>Supabase</strong> hosts our database and sign-in, in Tokyo, Japan. Supabase, Inc. is based in the United
+        States, and it (and companies it uses) may access limited information from other countries, mainly the United
+        States, to run and support the service.</li>
+      <li><strong>Expo</strong> delivers app updates, from the United States.</li>
+      <li><strong>GitHub</strong> hosts this website, in the United States.</li>
+      <li><strong>Apple and Google</strong> provide sign-in, from the United States.</li>
+    </ul>
+    <p>So your information is stored in Japan and may be accessed from the United States. We use providers that protect
+      information, under agreements that require them to handle it properly.</p>
 
     <h2>Keeping it safe</h2>
-    <p>All data travels encrypted (HTTPS). The database enforces who can read what for every request, and changes to coins,
-      purchases and houses go through checked server functions only.</p>
-
-    <h2>Your choices and deleting your data</h2>
     <ul>
-      <li><strong>Delete your sleep data</strong> in the app (Profile → Delete sleep data). Your room and coins stay.</li>
-      <li><strong>Delete your account</strong> in the app (Profile → Delete account). Everything of yours is deleted: account,
-        sleep, room, coins and memberships. If you signed in with Apple, we also revoke the app's access to your Apple ID.
-        Houses you were in carry on without you. Copies in our hosting provider's encrypted backups are removed as those backups roll over.</li>
-      <li><strong>Signing out of a guest account deletes it</strong>, the same way, because nobody can sign back in to it.
-        Sign in with Apple or Google first to keep it.</li>
-      <li>You can stop Nap House reading Apple Health at any time in the Health app (Sharing → Apps).</li>
-      <li>To ask what we hold about you, or for any privacy question, email us (below).</li>
+      <li>Information travels encrypted (HTTPS), and our database is encrypted where it's stored.</li>
+      <li>The database checks who can read what on every request, and changes to coins, purchases and houses go through
+        checked server functions only.</li>
+      <li>Only we can use the database's admin tools. We look at your information only when we need to (for example to fix
+        a problem you report, or to check a report), and we don't read your sleep for any other reason.</li>
+      <li>If a data breach is likely to cause you serious harm, we'll tell you and the Office of the Australian Information
+        Commissioner, as the law requires.</li>
     </ul>
 
+    <h2>How long we keep it</h2>
+    <ul>
+      <li>We keep your information while you have an account.</li>
+      <li><strong>Delete sleep data:</strong> your nights, and the coin history that would reveal them, are deleted straight away.</li>
+      <li><strong>Delete account:</strong> your account and everything linked to it are deleted from our database straight
+        away. Copies in our hosting provider's encrypted backups and server logs are gone within 7 days. If you signed in
+        with Apple, we also revoke Nap House's access to your Apple ID.</li>
+      <li>A house you started carries on without you if other people are still in it, and keeps the name you gave it.</li>
+      <li><strong>Guest accounts</strong> are deleted when you sign out. A guest account you can no longer open (for example
+        after deleting the app) stays on our servers until you ask us to delete it.</li>
+      <li><strong>Reports</strong> are kept while we deal with them, and deleted within 12 months after.</li>
+    </ul>
+
+    <h2>Your choices and rights</h2>
+    <ul>
+      <li><strong>See your information:</strong> ask us for a copy of what we hold about you. It's free, and we'll reply within 30 days.</li>
+      <li><strong>Correct it:</strong> ask us to fix anything that's wrong.</li>
+      <li><strong>Delete your sleep data:</strong> Profile, then Delete sleep data. Your room and coins stay.</li>
+      <li><strong>Delete your account:</strong> Profile, then Delete account. Signing out of a guest account deletes it too.</li>
+      <li><strong>Stop Nap House reading your sleep:</strong> see "Your health information and your consent".</li>
+      <li><strong>Stop sharing your sleep graph:</strong> turn off Share sleep graph in Profile.</li>
+    </ul>
+
+    <h2 id="delete">Deleting your account without the app</h2>
+    <p>If you can't use the app, email <a href="mailto:alfonso.kim27@gmail.com?subject=Delete%20my%20Nap%20House%20account">alfonso.kim27@gmail.com</a>
+      with the subject "Delete my Nap House account", from the email address linked to your Apple or Google sign-in (or
+      tell us your username). We'll check it's your account, delete it and everything linked to it within 30 days, and
+      email you when it's done. "How long we keep it" says what's deleted and when.</p>
+
+    <h2>Complaints</h2>
+    <p>If you're unhappy with how we've handled your information, please email us. We'll reply within 7 days and aim to
+      resolve it within 30 days. If you're not satisfied with our answer, you can complain to the Office of the Australian
+      Information Commissioner (<a href="https://www.oaic.gov.au">oaic.gov.au</a>, 1300 363 992). If you live outside
+      Australia, you can also contact your local data protection authority.</p>
+
     <h2>Children</h2>
-    <p>Nap House isn't meant for children under 13, and we don't knowingly collect data from them. If you think a child has
-      an account, contact us and we'll delete it.</p>
+    <p>Nap House is for people 13 and older, and we don't knowingly collect information from children under 13. If you
+      think a child under 13 has an account, contact us and we'll delete it.</p>
+    <p>If you're 13 to 17: your sleep graph is private unless you choose to share it.</p>
 
     <h2>Changes</h2>
     <p>If this policy changes, we'll update it here and change the date above. For significant changes we'll also tell you
-      in the app.</p>
+      in the app first.</p>
 
     <h2>Contact</h2>
     <p>Nap House, made by Alfonso Kim. Email <a href="mailto:alfonso.kim27@gmail.com">alfonso.kim27@gmail.com</a>.</p>
